@@ -3730,7 +3730,7 @@ function SectionFunctions:AddLabel(Config)
         local KeyMode = KeyConfig.Mode or "Toggle" 
         local KeyCallback = KeyConfig.Callback or function() end
         local Key = KeyDefault
-        local TextKey = Text .. "_Bind"
+        local TextKey = Text .. ""
 
         Library.Keybinds[TextKey] = { Key = Key, Mode = KeyMode, Active = false }
 
