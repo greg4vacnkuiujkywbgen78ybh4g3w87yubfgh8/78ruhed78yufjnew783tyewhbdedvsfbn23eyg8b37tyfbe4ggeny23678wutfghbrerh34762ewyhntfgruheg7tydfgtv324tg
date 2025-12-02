@@ -4525,5 +4525,13 @@ Library.Tabs.Skins = CreateTabObj(skincontentframe)
 Library.Tabs.User = CreateTabObj(usercontentframe)
 Library.Tabs.Extra = CreateTabObj(extracontentframe)
 
+Library.UI = {
+    mainboxframe = mainboxframe,
+    realframe = realframe,
+    ModalElement = ModalElement,
+    MouseCursor = MouseCursor,
+    MouseCursorOutline = MouseCursorOutline,
+    skeet = skeet
+}
 
 return Library
